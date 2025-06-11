@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors: Unleash Your Inner Hero - Play Now!</title>
+    <meta name="description" content="Monster Survivors is a thrilling top-down action rogue-lite game. Fight endless hordes of monsters, upgrade your hero, and survive the onslaught. Play now on wuzhenlin.shop!">
+    <meta name="keywords" content="Monster Survivors, online game, action rogue-lite, survival game, indie game, play free, browser game">
+    <link rel="canonical" href="https://www.wuzhenlin.shop/">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Apple-inspired colors for Tailwind */
+        :root {
+            --color-apple-bg: #F5F5F7; /* Light off-white */
+            --color-apple-text-dark: #1D1D1F; /* Dark text */
+            --color-apple-blue: #007AFF; /* Signature Apple Blue */
+            --color-apple-gray: #8E8E93; /* Light gray for subtle elements */
+            --color-apple-white: #FFFFFF; /* Pure white */
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: var(--color-apple-bg);
+            color: var(--color-apple-text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        h1, h2 {
+            color: var(--color-apple-text-dark);
+            font-weight: 700; /* Bold headings */
+        }
+
+        a {
+            color: var(--color-apple-blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Specific styles for the game iframe container */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+            height: 0;
+            overflow: hidden;
+            background-color: #000; /* Black background for game loading */
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Specific styles for responsive text sizes */
+        .text-h1-responsive {
+            font-size: 2.5rem; /* Default for mobile */
+        }
+        @media (min-width: 640px) { /* sm breakpoint */
+            .text-h1-responsive {
+                font-size: 3rem;
+            }
+        }
+        @media (min-width: 1024px) { /* lg breakpoint */
+            .text-h1-responsive {
+                font-size: 4rem;
+            }
+        }
+
+        .text-h2-responsive {
+            font-size: 1.8rem; /* Default for mobile */
+        }
+        @media (min-width: 640px) { /* sm breakpoint */
+            .text-h2-responsive {
+                font-size: 2.2rem;
+            }
+        }
+        @media (min-width: 1024px) { /* lg breakpoint */
+            .text-h2-responsive {
+                font-size: 2.5rem;
+            }
+        }
+
+        .text-base-responsive {
+            font-size: 1rem; /* Default for mobile */
+        }
+        @media (min-width: 640px) { /* sm breakpoint */
+            .text-base-responsive {
+                font-size: 1.125rem; /* text-lg */
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="bg-white shadow-sm py-6">
+        <div class="container flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-h1-responsive font-bold text-center md:text-left mb-4 md:mb-0">Monster Survivors: Unleash Your Inner Hero</h1>
+            <nav>
+                <ul class="flex space-x-6 text-base-responsive">
+                    <li><a href="#play-now" class="hover:text-apple-blue">Play Now</a></li>
+                    <li><a href="#about-game" class="hover:text-apple-blue">About</a></li>
+                    <li><a href="#features" class="hover:text-apple-blue">Features</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container my-8 lg:my-12">
+        <section id="play-now" class="bg-white rounded-lg shadow-lg p-6 lg:p-10 mb-8">
+            <h2 class="text-h2-responsive font-semibold mb-6 text-center">Play Monster Survivors Online Now!</h2>
+            <p class="text-center text-base-responsive text-apple-gray mb-8">
+                A thrilling top-down action rogue-lite where you fight hordes of monsters and upgrade your hero to survive.
+            </p>
+            <div class="iframe-container rounded-md overflow-hidden">
+                <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                        title="Monster Survivors Online Game" 
+                        allowfullscreen 
+                        loading="lazy">
+                </iframe>
+            </div>
+            <p class="text-center text-base-responsive text-apple-gray mt-6">
+                Click on the game window to start playing. For the best experience, play in full screen!
+            </p>
+        </section>
+
+        <section id="about-game" class="bg-white rounded-lg shadow-lg p-6 lg:p-10 mb-8">
+            <h2 class="text-h2-responsive font-semibold mb-4">About Monster Survivors</h2>
+            <p class="text-base-responsive mb-4">
+                Dive into the action-packed world of Monster Survivors, a brand new top-down action rogue-lite that throws you into an arena filled with relentless monster hordes. Your mission is simple: survive. But survival is far from easy when every wave brings new, more formidable foes.
+            </p>
+            <p class="text-base-responsive">
+                As you defeat monsters, you'll gain experience and level up, unlocking powerful new abilities and upgrades. Strategically choose your enhancements to create a unique build that can withstand the ever-increasing challenge. From devastating area-of-effect spells to rapid-fire projectile attacks, the combinations are endless. How long can you last against the unending tide?
+            </p>
+        </section>
+
+        <section id="features" class="bg-white rounded-lg shadow-lg p-6 lg:p-10 mb-8">
+            <h2 class="text-h2-responsive font-semibold mb-4">Key Features</h2>
+            <ul class="list-disc list-inside text-base-responsive space-y-2">
+                <li><strong>Endless Hordes:</strong> Battle against an unending stream of diverse and challenging monsters.</li>
+                <li><strong>Rogue-lite Progression:</strong> Level up during runs, choose from a wide array of upgrades and abilities to customize your hero.</li>
+                <li><strong>Dynamic Gameplay:</strong> Every run is different with procedurally generated upgrade options.</li>
+                <li><strong>Satisfying Combat:</strong> Experience exhilarating combat with powerful attacks and satisfying visual effects.</li>
+                <li><strong>Simple Controls:</strong> Easy to pick up and play, but deep enough to master.</li>
+                <li><strong>Cross-Platform Compatible:</strong> Play seamlessly on both desktop and mobile devices.</li>
+            </ul>
+        </section>
+
+        <section id="tips" class="bg-white rounded-lg shadow-lg p-6 lg:p-10">
+            <h2 class="text-h2-responsive font-semibold mb-4">Tips for New Survivors</h2>
+            <p class="text-base-responsive mb-4">
+                To maximize your survival time in Monster Survivors, consider these strategies:
+            </p>
+            <ul class="list-decimal list-inside text-base-responsive space-y-2">
+                <li>Prioritize early-game upgrades that enhance your survivability, such as movement speed or health regeneration.</li>
+                <li>Experiment with different ability combinations to find synergies that work best for your playstyle.</li>
+                <li>Always keep an eye on your surroundings; getting cornered can be fatal.</li>
+                <li>Don't be afraid to restart! Each run is an opportunity to learn and refine your strategy.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-apple-text-dark text-apple-bg py-6 mt-8">
+        <div class="container text-center text-sm">
+            <p>&copy; 2025 Monster Survivors. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="mailto:support@wuzhenlin.shop" class="text-apple-blue hover:underline">Contact Us</a>
+                <span class="mx-2 text-apple-gray">|</span>
+                <a href="#" class="text-apple-blue hover:underline">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
